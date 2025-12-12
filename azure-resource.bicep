@@ -1,5 +1,5 @@
 param location string = 'canadacentral'
-param storageName string = 'stgithubactions'
+param storageName string = 'studemyiachrsstorage'
 
 resource storageaccount 'Microsoft.Storage/storageAccounts@2025-06-01' = {
   name: storageName
